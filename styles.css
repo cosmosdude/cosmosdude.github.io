@@ -1,0 +1,138 @@
+.text-decoration-none { text-decoration: none; }
+.text-decoration-none:* { text-decoration: none; }
+
+.font-weight-bold { font-weight:bold; }
+
+.bg-white{ background-color: white; }
+.bg-gray { background-color: #2a363b; }
+.bg-black { background-color: black;}
+.bg-red {background-color: #e84a5f;}
+.bg-yellow {background-color: #f8b195;}
+.bg-pink {background-color: #c08c64;}
+.bg-purple {background-color: #6c5b7b;}
+.bg-blue {background-color: #355c7d;}
+
+.fg-white {color: white;}
+
+.super-title {
+	font-weight: bold;
+	font-size: 9em;
+}
+
+.super-subtitle {
+	font-size: 6em;
+}
+
+.spacer {flex-grow: 1;}
+
+
+.padding-rl-25 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.stick-bottom-fix {
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	left: 0px;
+	right: 0px;
+	flex-direction: column;
+}
+
+
+.btm-nav {
+	/*box-sizing: border-box;*/
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	flex-grow: 0;
+	flex-shrink: 10000;
+}
+
+.btm-nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	flex-grow: 100;
+	text-align: center;
+	/*padding-top: 15px;*/
+	/*padding-bottom: 15px;*/
+}
+.btm-nav a:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	opacity: 0.5;
+}
+.btm-nav a:visit {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+}
+.btm-nav a:focus {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+}
+
+.btm-nav span.separator {
+	flex-grow: 1;
+	/*padding-top: 15px;*/
+	/*padding-bottom: 15px;*/
+}
+
+
+.btm-nav span.separator:hover {
+	cursor: default;
+}
+
+.btm-nav span.separator::before {
+	content: "  ";
+	white-space: pre;
+}
+.btm-nav span.separator::after {
+	content: "  ";
+	white-space: pre;
+}
+
+
+
+
+
+
+
+.overflow-y-hidden {
+	overflow-y: hidden;
+}
+
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+
+
+
+.height-10 {
+	height: 10px;
+}
+.height-25 {
+	height: 25px;
+}
+.height-50 {
+	height: 50px;
+}
+.height-100 {
+	height: 100px;
+}
+
+
+
+

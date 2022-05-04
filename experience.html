@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+            crossorigin="anonymous"
+        >
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"
+        ></script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous"
+        ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="styles.css" rel="stylesheet">
+        <title>Experience</title>
+
+        <script src="homepage.js"></script>
+    </head>
+    <body class="bg-black">
+        
+        <div class="container-fluid vh-100">
+            <div class="row d-flex h-100 bg-white">
+                <div class="col-sm-6 d-none d-sm-block">
+                    <div class="d-flex h-100 flex-column">
+                        <div class="d-flex flex-column spacer">
+                            <div class="spacer"></div>
+                            <div>
+                                <h2 class="super-title pr-5" style="text-align:right">Exp.</h2>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <nav id="nav1" class="btm-nav"></nav>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 bg-black overflow-y-scroll">
+                    <div class="d-flex vh-100 flex-column p-5 scroll fg-white">
+                        <div class="spacer"></div>
+                        <div>
+                            <h1 class="font-weight-bold"><a href="https://betterhr.io/my-mm/">Better HR</a></h1>
+                            <h6>1 Year 9 Months</h6>
+                            <div class="height-10"></div>
+                            <h4><b>Senior iOS Developer</b><small><i>• full time</i></small></h4>
+                            <p>I was responsible for architecting internal app development processes, company specific iOS guidelines, guiding newer iOS devs and integrating Yoma Chat with Get Stream service .</p>
+                            <h4><b>Junior iOS Developer</b> </h4>
+                            <p>I was responsible for implementing Better HR and Yoma HR application which is the enterprise version of Better HR.</p>
+
+                            <div class="height-50"></div>
+
+                            <h1 class="font-weight-bold"><a href="https://www.nexlabs.co">Nexlabs.co</a></h1>
+                            <p>1 Year 7 Months</p>
+                            <h4><b>Junior iOS Developer</b></h4>
+                            <p>I was responsible for implementing Better HR which became successful and eventually a new company branch is found.</p>
+                            <h4><b>Internship</b></h4>
+                            <p>I was responsible for implementing Better HR.</p>
+
+                            <div class="height-50"></div>
+
+                            <h1 class="font-weight-bold">
+                                <a href="https://play.google.com/store/apps/details?id=com.material.design.codingplanet&hl=my&gl=US">
+                                    Coding Planet II
+                                </a>
+                            </h1>
+                            <quote>Coding planet II is the successor of the Coding Planet I. During the development, I took part as a game designer, game programmer and a programming language designer.</quote>
+
+                            <div class="height-50"></div>
+
+                            <h1 class="font-weight-bold">
+                                <a href="https://play.google.com/store/apps/details?id=com.material.design.codingplanets&hl=my&gl=US">
+                                    Coding Planet I
+                                </a>
+                            </h1>
+                            <quote>Coding planet I is an app that teach how to code which me and my friends made during the Samsung app competition. During the development, I took part as a game designer, game programmer and a programming language designer. The app hit 100k+ download on app store.</quote>
+                            <div class="height-100"></div>
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Mobile Nav Bar -->
+        <div class="stick-bottom-fix padding-rl-25 d-block d-sm-none bg-black">
+            <footer id="nav2" class="btm-nav fg-white"></footer>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                const name = "experience";
+                add_menu_items({of: name, to: nav1});
+                add_menu_items({of: name, to: nav2});
+            });
+        </script>
+    </body>
+</html>

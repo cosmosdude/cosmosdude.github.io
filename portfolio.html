@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+            crossorigin="anonymous"
+        >
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"
+        ></script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous"
+        ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="styles.css" rel="stylesheet">
+        <title>Portfolio</title>
+
+        <script src="homepage.js"></script>
+    </head>
+    <body class="bg-black">
+        
+        <div class="container-fluid vh-100">
+            <div class="row d-flex h-100">
+                <div class="col-sm-6 d-none d-sm-block">
+                    <div class="d-flex h-100 flex-column">
+                        <div class="d-flex flex-column spacer">
+                            <div class="spacer"></div>
+                            <div>
+                                <h2 class="super-title fg-white pr-5" style="text-align:right">Portfolio</h2>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <nav id="nav2" class="btm-nav fg-white">
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 bg-white">
+                    <div class="d-flex w-100 vh-100 flex-column p-5 overflow-y-scroll">
+                        <div class="spacer"></div>
+                        <div>
+                            <h1 class="font-weight-bold"><a href="https://apps.apple.com/us/app/better-hr/id1375280585">Better HR</a></h1>
+                            <p>Industries evolve non-stop. Manpower demands constantly evolve. Employee interaction evolves. Why should your HR stay the same? Introducing, Better HR, the app that brings HR management to the future. Take care of your employees and evolve with them as you evolve your company.
+                            Look forward to a better company. Look forward with Better HR.</p>
+
+                            <div class="height-25"></div>
+                            
+                            <h1 class="font-weight-bold"><a href="https://apps.apple.com/us/app/yoma-connect/id1475886370">Yoma Connect</a></h1>
+                            <p>Yoma Connect provide a single dashboard to gain real insights into what is happening in your company. Employees are given a self-service mobile application to manage their leaves, overtime requests, attendance and more.</p>
+                            
+                            <div class="height-25"></div>
+                            
+                            <h1 class="font-weight-bold"><a href="https://play.google.com/store/apps/details?id=com.material.design.codingplanet&hl=my&gl=US">Coding Planet I</a></h1>
+                            <p>Nowadays, Programming is very essential. Coding Planets is Educational, Brain training and puzzle game. In this game, you have to write program for a robot to solve the puzzles. There are three Programming languages supported and every ages can play.
+                            </p>
+                            
+                            <div class="height-25"></div>
+                            
+                            <h1 class="font-weight-bold"><a href="https://play.google.com/store/apps/details?id=com.material.design.codingplanets&hl=my&gl=US">Coding Planet II</a></h1>
+                            <p>Coding Planets is Educational, Brain training and puzzle game. In this game, you have to give instructions for a robot to solve the puzzles.</p>
+
+                            <div class="height-50"></div>
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Bar -->
+        <div class="stick-bottom-fix padding-rl-25 d-block d-sm-none bg-black">
+            <footer id="nav1" class="btm-nav fg-white">
+            </footer>
+        </div>
+
+
+        <script>
+            $(document).ready(function(){
+                const name = "portfolio";
+                add_menu_items({of: name, to: nav1});
+                add_menu_items({of: name, to: nav2});
+            });
+        </script>
+    </body>
+</html>
